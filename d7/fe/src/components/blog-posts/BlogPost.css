@@ -1,0 +1,32 @@
+.postCard {
+    width: "18rem";
+    height: "25rem";
+    cursor: pointer;
+    border: none;
+    box-shadow: 0 0 10px #00000070;
+    transition: all 0.4s;
+  }
+  .postCard:hover {
+    transform: scale(1.05);
+  }
+  
+  .postCard,
+  .postCardDarkTheme {
+    text-decoration: none !important;
+  }
+  
+  .postCard a {
+    text-decoration: none !important;
+  }
+  
+  .postCardDarkTheme {
+    width: "18rem";
+    height: "25rem";
+    cursor: pointer;
+    border: none;
+    box-shadow: 0 0 10px #ffffff70;
+    transition: all 0.4s;
+  }
+  .postCardDarkTheme:hover {
+    transform: scale(1.05);
+  }

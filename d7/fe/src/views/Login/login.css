@@ -1,0 +1,62 @@
+.login_register_wrapper {
+    position: relative;
+    width: 600px;
+    height: 700px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+  }
+  
+  .loginForm {
+    padding: 1rem 2rem;
+    border-radius: 10px;
+    box-shadow: 0 0 10px #00000070;
+    position: absolute;
+    transition: all 0.5s;
+  }
+  .loginFormDarkTheme {
+    padding: 1rem 2rem;
+    border-radius: 10px;
+    box-shadow: 0 0 10px #ffffff70;
+    position: absolute;
+    transition: all 0.5s;
+  }
+  
+  .registerForm {
+    position: absolute;
+    left: 40rem;
+    min-width: 400px;
+    padding: 1rem 2rem;
+    border-radius: 10px;
+    box-shadow: 0 0 10px #00000070;
+    transition: all 0.5s;
+  }
+  .registerFormDarkTheme {
+    position: absolute;
+    left: 40rem;
+    min-width: 400px;
+    padding: 1rem 2rem;
+    border-radius: 10px;
+    box-shadow: 0 0 10px #ffffff70;
+    transition: all 0.5s;
+  }
+  
+  .alertRegisterSuccess {
+    position: absolute;
+    bottom: -5rem;
+    z-index: 1;
+  }
+  
+  .passwordInput {
+    position: relative;
+  }
+  .passwordToggleIcon {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 92%;
+    font-size: 1.2rem;
+    display: flex;
+    align-items: center;
+  }

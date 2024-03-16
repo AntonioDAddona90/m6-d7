@@ -1,0 +1,33 @@
+.page_404 {
+    font-family: "Tahoma", serif;
+    padding: 6rem 0;
+    margin-top: 6rem;
+  }
+  
+  .page_404 img {
+    width: 100%;
+  }
+  
+  .four_zero_four_bg {
+    background-image: url(https://cdn.dribbble.com/users/285475/screenshots/2083086/dribbble_1.gif);
+    /* background-image: url("../../data/notFoundPage.gif"); */
+    height: 500px;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-bottom: 1rem;
+  }
+  
+  .four_zero_four_bg h1 {
+    font-size: 80px;
+  }
+  
+  .four_zero_four_bg h3 {
+    font-size: 80px;
+  }
+  
+  .link_404 {
+    color: #fff !important;
+    text-decoration: none;
+  }
+  
